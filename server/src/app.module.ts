@@ -7,6 +7,7 @@ import { TrackModule } from './track/track.module';
     MongooseModule.forRoot(
       'mongodb+srv://root:root@cluster0.u6ooz4r.mongodb.net/?retryWrites=true&w=majority',
     ),
+    TrackModule,
   ],
 })
 export class AppModule {}

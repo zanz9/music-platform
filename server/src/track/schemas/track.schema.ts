@@ -10,7 +10,7 @@ export class Track {
   @Prop()
   astist: string;
   @Prop()
-  track: string;
+  text: string;
   @Prop()
   listens: number;
   @Prop()
